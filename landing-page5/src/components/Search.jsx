@@ -74,7 +74,7 @@ function Search() {
           }}
           src={require("../img/d4.png")}
           alt=""
-          className="w-[17rem] top-[50rem] left-[2rem] absolute"
+          className="h-25 w-[20rem] top-[50rem] left-[12rem] absolute"
         />
       </div>
       {/* right side */}
