@@ -45,11 +45,11 @@ function Hero() {
       <div className="wrapper bg-[#081730] flex items-center justify-between px-[5rem] rounded-b-[5rem] w-[100%] h-[35rem] relative z-[3]">
         {/* left side */}
         <div className="headings flex flex-col items-start justify-center h-[100%] text-[3rem]">
-          <span>Experience The</span>{" "}
+          <span>Experience The</span>
           <span>
-            <b>Best Qulaity Movies</b>
+            <b>Best Quality Movies</b>
           </span>
-          <span className="text-[15px] text-[#525D6E]">
+          <span className="text-[20px] text-[#00FFFF]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             <br />
             Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -68,12 +68,12 @@ function Hero() {
             transition={{ duration: 1, type: "ease-out" }}
             src={require("../img/backgraphics.png")}
             alt=""
-            className="absolute top-[-8rem] left-[19rem]"
+            className="absolute top-[-15rem] left-[9rem]"
           />
           <img
             src={require("../img/boxo3.png")}
             alt=""
-            className="absolute top-[-15rem] h-[34rem] left-[13rem]"
+            className="absolute top-[-6rem] h-[14rem] left-[8rem]"
           />
           <motion.img
             variants={musicPlayer}

@@ -29,7 +29,7 @@ function Search() {
     },
   };
   return (
-    <div className="search relative h-[65rem] px-[5rem] bg-[#081730] pt-[18rem] pb-[10rem] mt-[-15rem] z-[1] flex items-center justify-between rounded-b-[5rem]">
+    <div className="search relative h-[70rem] px-[5rem] bg-[#081730] pt-[10rem] pb-[10rem] mt-[-15rem] z-[1]  flex items-center justify-between rounded-b-[5rem]">
       {/* left side */}
       <div className="left flex-1">
         <motion.img
@@ -41,7 +41,8 @@ function Search() {
           }}
           src={require("../img/backgraphics.png")}
           alt=""
-          className="absolute top-[22rem] left-[-47rem]"
+          // className="absolute top-[15rem] left-[30rem]"
+          className="w-700 rounded-lg shadow-lg"
         />
         <motion.img
           src={require("../img/box4.png")}
@@ -95,7 +96,7 @@ function Search() {
           </div>
         </div>
         {/* tild icon */}
-        <div className="tild flex justify-start mt-7 items-center w-[100%]">
+        <div className="tild flex justify-start mt-7 items-center w-[100%]  ">
           <img
             src={require("../img/Path 318.png")}
             alt=""
@@ -104,14 +105,15 @@ function Search() {
         </div>
 
         {/* paragraph */}
-        <div className="detail flex flex-col mt-5 text-4xl">
+        <div className="detail flex flex-col  mt-5 text-4xl">
           <span>Search Movies by</span>
           <span>
             <b>Name or Direct URL</b>
           </span>
-          <span className="text-sm mt-3 text-[#4D586A]">
-            Duis feugiat congue metus, ultrices vulputate <br /> nibh viverra
-            eget. Vestibulum ullamcorper <br /> volutpat varius.
+          <span className=" text-[20px]  text-sm mt-6 text-[#00FFFF]  ">
+            {/* Duis feugiat congue metus, ultrices vulputate <br /> nibh viverra
+            eget. Vestibulum ullamcorper <br /> volutpat varius. */}
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
           </span>
         </div>
         {/* Music Player */}
